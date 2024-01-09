@@ -1,9 +1,7 @@
-import * as path from "path";
-
-const url = "";
+const url = "http://localhost:3000";
 const apiService = {
   get: async (target: string): Promise<any> => {
-    const endpoint = path.join(url, target);
+    const endpoint = new URL(target, url).toString();
     console.log(endpoint);
     try {
       const res = await fetch(endpoint);
