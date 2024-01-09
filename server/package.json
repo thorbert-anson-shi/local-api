@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "startDev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorbert-anson-shi/local-api.git"
+  },
+  "author": "Tobtoby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thorbert-anson-shi/local-api/issues"
+  },
+  "homepage": "https://github.com/thorbert-anson-shi/local-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
